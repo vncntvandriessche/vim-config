@@ -1,0 +1,6 @@
+[submodule "colors"]
+	path = colors
+	url = git@github.com:vncntvandriessche/molokai.git
+[submodule "autoload"]
+	path = autoload
+	url = git@github.com:vncntvandriessche/vim-pathogen.git

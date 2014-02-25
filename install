@@ -1,0 +1,19 @@
+#!/bin/bash
+
+###############
+## Constants ##
+###############
+
+script_dir="$(pwd)/";
+script_rc="${script_dir}vimrc";
+
+target_dir="$HOME/.vim";
+target_rc="${target_dir}rc";
+
+
+##########
+## Main ##
+##########
+
+ln -s $script_dir $target_dir;
+ln -s $script_rc $target_rc;

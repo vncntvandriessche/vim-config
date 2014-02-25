@@ -18,3 +18,6 @@ au FileType gitcommit au! BufEnter COMMIT_EDITMSG call setpos('.', [0, 1, 1, 0])
 
 " Set the colorscheme to colors/molokai.vim
 colorscheme molokai
+
+" Enable 256 colors for molokai
+set t_Co=256

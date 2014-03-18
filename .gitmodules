@@ -1,9 +1,9 @@
 [submodule "colors"]
 	path = colors
-	url = git@github.com:vncntvandriessche/molokai.git
+	url = https://github.com/vncntvandriessche/vim-molokai.git
 [submodule "autoload"]
 	path = autoload
-	url = git@github.com:vncntvandriessche/vim-pathogen.git
+	url = https://github.com/vncntvandriessche/vim-pathogen.git
 [submodule "bundle/ctrlp"]
 	path = bundle/ctrlp
 	url = https://github.com/kien/ctrlp.vim.git

@@ -20,7 +20,7 @@ au FileType gitcommit au! BufEnter COMMIT_EDITMSG call setpos('.', [0, 1, 1, 0])
 colorscheme molokai
 
 " Add spellchecking
-set spell spelllang=en_us
+" set spell spelllang=en_us
 
 " Enable 256 colors for molokai
 set t_Co=256

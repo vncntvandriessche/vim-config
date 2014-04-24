@@ -11,7 +11,9 @@ filetype plugin indent on
 
 " Disable tab characters
 set expandtab
-set tabstop=4
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
 
 " git commit always first line
 au FileType gitcommit au! BufEnter COMMIT_EDITMSG call setpos('.', [0, 1, 1, 0])

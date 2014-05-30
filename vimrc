@@ -32,4 +32,4 @@ nnoremap gs :Gstatus<CR>
 nnoremap gc :Gcommit -vs<CR>
 nnoremap gp :Git push
 " Note: whitespace intendend
-nnoremap gg :Git 
+nnoremap gd :Git 

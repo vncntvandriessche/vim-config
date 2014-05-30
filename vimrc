@@ -26,3 +26,10 @@ colorscheme molokai
 
 " Enable 256 colors for molokai
 set t_Co=256
+
+" fugitive bindings
+nnoremap gs :Gstatus<CR>
+nnoremap gc :Gcommit -vs<CR>
+nnoremap gp :Git push
+" Note: whitespace intendend
+nnoremap gg :Git 

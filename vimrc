@@ -33,3 +33,6 @@ nnoremap gc :Gcommit -vs<CR>
 nnoremap gp :Git push
 " Note: whitespace intendend
 nnoremap gd :Git 
+
+" Ruby syntax on for Vagrantfile
+au BufNewFile,BufRead Vagrantfile set filetype=ruby

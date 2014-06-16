@@ -29,7 +29,7 @@ set t_Co=256
 
 " fugitive bindings
 nnoremap gs :Gstatus<CR>
-nnoremap gc :Gcommit -vs<CR>
+nnoremap gc :Gcommit -v<CR>
 nnoremap gp :Git push
 " Note: whitespace intendend
 nnoremap gd :Git 

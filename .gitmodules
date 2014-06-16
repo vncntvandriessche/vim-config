@@ -43,3 +43,6 @@
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
+[submodule "bundle/rubocop"]
+	path = bundle/rubocop
+	url = https://github.com/ngmy/vim-rubocop.git

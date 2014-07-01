@@ -5,6 +5,9 @@ execute pathogen#infect()
 " (In combination with numbers plugin)
 set number
 
+" Fold
+set foldmethod=indent
+
 " Enable syntax
 syntax on
 filetype plugin indent on

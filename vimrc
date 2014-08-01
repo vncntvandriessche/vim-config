@@ -43,3 +43,6 @@ au BufNewFile,BufRead Vagrantfile set filetype=ruby
 " NERDtree options
 map <C-n> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+
+" Rubocop option
+nnoremap co :RuboCop<CR>

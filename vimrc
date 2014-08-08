@@ -46,3 +46,6 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 
 " Rubocop option
 nnoremap co :RuboCop<CR>
+
+" Buffers
+nnoremap ev :qa<CR>

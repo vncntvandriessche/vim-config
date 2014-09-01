@@ -18,19 +18,16 @@ set tabstop=2
 set softtabstop=2
 set shiftwidth=2
 
-" git commit always first line
+" Git commit always first line
 au FileType gitcommit au! BufEnter COMMIT_EDITMSG call setpos('.', [0, 1, 1, 0])
 
 " Set the colorscheme to colors/molokai.vim
 colorscheme molokai
 
-" Add spellchecking
-" set spell spelllang=en_us
-
 " Enable 256 colors for molokai
 set t_Co=256
 
-" fugitive bindings
+" Fugitive bindings
 nnoremap gs :Gstatus<CR>
 nnoremap gc :Gcommit -v<CR>
 nnoremap gp :Git push

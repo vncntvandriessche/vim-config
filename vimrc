@@ -46,3 +46,6 @@ nnoremap co :RuboCop<CR>
 
 " Clear all buffers
 nnoremap ev :qa<CR>
+
+" Fix whitespace
+nnoremap fw :FixWhitespace<CR>

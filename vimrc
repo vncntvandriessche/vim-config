@@ -37,7 +37,7 @@ nnoremap gp :Git push
 " Note: whitespace intendend
 nnoremap gd :Git 
 
-" Ruby syntax on for Vagrantfile
+" Ruby syntax on for 'Vagrantfile'
 au BufNewFile,BufRead Vagrantfile set filetype=ruby
 
 " NERDtree options
@@ -47,5 +47,5 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 " Rubocop option
 nnoremap co :RuboCop<CR>
 
-" Buffers
+" Clear all buffers
 nnoremap ev :qa<CR>

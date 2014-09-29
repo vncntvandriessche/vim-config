@@ -29,9 +29,9 @@ set t_Co=256
 
 " Fugitive bindings
 nnoremap gs :Gstatus<CR>
-nnoremap gc :Gcommit -v<CR>
-nnoremap gp :Git push
 " Note: whitespace intendend
+nnoremap gp :Git push 
+nnoremap gc :Gcommit -v 
 nnoremap gd :Git 
 
 " Ruby syntax on for 'Vagrantfile'

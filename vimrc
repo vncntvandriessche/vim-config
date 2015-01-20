@@ -5,9 +5,6 @@ execute pathogen#infect()
 " (In combination with numbers plugin)
 set number
 
-" Fold
-set foldmethod=indent
-
 " Enable syntax
 syntax on
 filetype plugin indent on
@@ -23,6 +20,7 @@ au FileType gitcommit au! BufEnter COMMIT_EDITMSG call setpos('.', [0, 1, 1, 0])
 
 " Set the colorscheme to colors/molokai.vim
 colorscheme molokai
+set background=dark
 
 " Enable 256 colors for molokai
 set t_Co=256
@@ -41,11 +39,15 @@ au BufNewFile,BufRead Vagrantfile set filetype=ruby
 map <C-n> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
-" Rubocop option
-nnoremap co :RuboCop<CR>
-
 " Clear all buffers
 nnoremap ev :qa<CR>
 
 " Fix whitespace
 nnoremap fw :FixWhitespace<CR>
+
+" Airline
+let g:airline_theme = 'bubblegum'
+let g:airline_powerline_fonts = 1
+
+" Clipboard
+set clipboard=unnamed

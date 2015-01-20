@@ -28,9 +28,6 @@
 [submodule "bundle/trailing-whitespace"]
 	path = bundle/trailing-whitespace
 	url = https://github.com/bronson/vim-trailing-whitespace.git
-[submodule "bundle/markdown"]
-	path = bundle/markdown
-	url = https://github.com/plasticboy/vim-markdown.git
 [submodule "bundle/sensible"]
 	path = bundle/sensible
 	url = https://github.com/tpope/vim-sensible.git
@@ -49,3 +46,9 @@
 [submodule "bundle/nginx"]
 	path = bundle/nginx
 	url = https://github.com/vim-scripts/nginx.vim.git
+[submodule "bundle/tmuxline"]
+	path = bundle/tmuxline
+	url = https://github.com/edkolev/tmuxline.vim
+[submodule "bundle/chef"]
+	path = bundle/chef
+	url = https://github.com/dougireton/vim-chef.git

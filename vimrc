@@ -51,3 +51,6 @@ let g:airline_powerline_fonts = 1
 
 " Clipboard
 set clipboard=unnamed
+
+" Clear number formats to decimal
+set nrformats=

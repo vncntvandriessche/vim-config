@@ -54,21 +54,3 @@ set clipboard=unnamed
 
 " Clear number formats to decimal
 set nrformats=
-
-" Ranger
-function! Ranger()
-    " Get a temp file name without creating it
-    let tmpfile = substitute(system('mktemp -u -t ranger'), '\n', '', '')
-    " Launch ranger, passing it the temp file name
-    silent exec '!RANGER_RETURN_FILE='.tmpfile.' ranger'
-    " If the temp file has been written by ranger
-    if filereadable(tmpfile)
-        " Get the selected file name from the temp file
-        let filetoedit = system('cat '.tmpfile)
-        exec 'edit '.filetoedit
-        call delete(tmpfile)
-    endif
-    redraw!
-endfunction
-
-nmap <leader>r :call Ranger()<cr()

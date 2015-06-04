@@ -46,9 +46,6 @@
 [submodule "bundle/nginx"]
 	path = bundle/nginx
 	url = https://github.com/vim-scripts/nginx.vim.git
-[submodule "bundle/tmuxline"]
-	path = bundle/tmuxline
-	url = https://github.com/edkolev/tmuxline.vim
 [submodule "bundle/chef"]
 	path = bundle/chef
 	url = https://github.com/dougireton/vim-chef.git
